@@ -1,0 +1,707 @@
+# [INPUT]: 页面与原生层的源文案及命名插槽。
+# [OUTPUT]: 英文界面文案，保持双语键与插槽一致。
+# [POS]: 共享呈现目录；不包含路径改写或业务判断。
+# [PROTOCOL]: 变更时更新此头部，然后检查 CLAUDE.md
+CCBaga-A: CCBaga-A
+检测通过: Checks passed
+主要页面: Main navigation
+Claude 清理: Claude cleanup
+网络环境: Network
+界面语言: Interface language
+时区已核验。{v0}: Time zone verified. {v0}
+已处理 {v0} 项；{v1}: Processed {v0} items; {v1}
+国家地区: Country / region
+取消: Cancel
+正在运行：: "Running: "
+浏览器环境: Browser
+刷新状态: Refresh
+运行中: Running
+设为默认浏览器: Set as default
+检测机器出口: Check computer network
+网页语言: Browser language
+浏览器语言: Browser language
+网页时区: Browser time zone
+已核验: Verified
+尚未核验: Not checked
+直接删除: Delete permanently
+重新实测: Run check
+正在读取浏览器与网络…: Checking browser & network…
+已测项目与目标地区一致: Checked values match the selected region
+请核对环境差异: Review environment differences
+出口 IP: Exit IP
+国家 / 城市: Country / city
+出口时区: Exit time zone
+设备平台 / 版本: Device platform / version
+不可读取: Unavailable
+逻辑 CPU: Logical CPUs
+浏览器实际版本: Browser version
+网页定位权限: Location permission
+本机时区: Computer time zone
+本机语言 / 区域: Computer language / region
+本机系统 / CPU: Computer OS / CPUs
+macOS {v0} / {v1} 核: macOS {v0} / {v1} cores
+" · 结果回传成功 {v0}": " · Report sent {v0}"
+" · 等待本次实测回传": " · Waiting for report"
+设备时区: Time zone
+系统设置: System Settings
+系统语言: System language
+未设置: Not set
+目标语言: New language
+地理位置: Location
+开启: On
+关闭: Off
+已处理 {v0} 项；部分完成，请检查失败记录。: Processed {v0} items; partially complete. Check the error log.
+"发现 ": "Found "
+" 项": " items"
+检查中: Checking
+可以清理: Ready
+"已清理 ": "Cleaned "
+" 项。": " items."
+清理: Clean
+直接{v0}: "{v0}"
+开始浏览器操作。: Starting browser operation.
+操作活动日志: Activity log
+浏览器操作记录: Browser
+已停止 · 请检查: Stopped · Check error
+已完成: Done
+收起日志: Hide log
+展开日志: Show log
+准备中…: Preparing…
+本次操作日志: Operation log
+全部项目: All items
+缓存与日志: Cache & logs
+登录与本地标识: Sign-in & identifiers
+会话与历史: Sessions & history
+桌面端数据: Desktop data
+代理与认证配置: Proxy & authentication
+既有备份: Existing backups
+旧组织文件: Old organization
+可再生成: Regenerable
+需重新登录: Sign-in required
+包含历史: History
+修改配置: Configuration
+永久删除: Permanent deletion
+检查: Checking
+复查: Verifying
+进程检查: Process check
+浏览器操作: Browser operation
+结果: Result
+美国 · 洛杉矶: United States · Los Angeles
+美国 · 纽约: United States · New York
+加拿大 · 多伦多: Canada · Toronto
+英国 · 伦敦: United Kingdom · London
+法国 · 巴黎: France · Paris
+德国 · 柏林: Germany · Berlin
+日本 · 东京: Japan · Tokyo
+韩国 · 首尔: South Korea · Seoul
+新加坡: Singapore
+台湾 · 台北: Taiwan · Taipei
+香港: Hong Kong
+中国 · 上海: China · Shanghai
+澳大利亚 · 悉尼: Australia · Sydney
+出口检测返回无效数据: Invalid exit check response
+出口字段无效: Invalid exit response field
+出口响应过大: Exit response too large
+出口检测未完成（{v0}）。请检查 TUN/代理连接后重试。: Exit check failed ({v0}). Check your TUN/proxy connection and retry.
+无法保存界面语言。: Cannot save interface language.
+不支持的界面语言。: Unsupported interface language.
+未知: Unknown
+待测: Not checked
+凭据编号无效。: Invalid credential ID.
+系统操作失败。: System operation failed.
+系统返回了无法识别的数据。: Unrecognized system response.
+系统返回数据不完整。: Incomplete system response.
+Code 缓存: Code cache
+使用统计缓存: Statistics cache
+本地遥测缓存: Local telemetry cache
+用量缓存: Usage cache
+用量记录: Usage records
+用量修正记录: Corrected usage records
+粘贴缓存: Paste cache
+可重新生成，不移除登录、技能或设置。: Can be regenerated. Sign-ins, skills and settings are retained.
+Code 系统缓存: Code system cache
+Desktop 日志: Desktop logs
+Desktop 页面缓存: Desktop page cache
+Desktop 编译缓存: Desktop compiled cache
+Desktop 图形缓存: Desktop graphics cache
+仅移除本地缓存或日志。: Removes local cache or logs only.
+Desktop 系统缓存: Desktop system cache
+Desktop 崩溃报告: Desktop crash reports
+Desktop 崩溃缓存: Desktop crash cache
+仅移除 Claude 的缓存或崩溃记录。: Removes Claude cache or crash records only.
+Code 项目会话: Code project sessions
+Code 会话索引: Code session index
+Code 输入历史: Code input history
+Code 文件历史: Code file history
+Code 调试日志: Code debug logs
+移除本地会话或历史；不会删除实际项目文件。: Removes local sessions or history. Project files are retained.
+Code 文件登录凭据: Code file credentials
+退出文件凭据登录。凭据内容不会显示。: Removes file-based sign-in credentials. Contents are hidden.
+Code 账号与本地标识: Code account & local identifiers
+清除账号缓存及本地 userID、machineID；保留项目、MCP 和个人设置。再次运行时由 Claude 重新生成本地标识。: Clears cached account data, userID and machineID. Projects, MCP and personal settings are retained. Claude regenerates local identifiers on next use.
+Desktop HTTP 登录存储: Desktop HTTP sign-in storage
+Desktop 偏好设置: Desktop preferences
+Desktop 窗口状态: Desktop window state
+Desktop WebKit 存储: Desktop WebKit storage
+重置桌面端登录和本地状态；服务器上的对话不会被删除。: Resets desktop sign-in and local state. Server conversations are retained.
+Desktop 设备偏好: Desktop device preferences
+重置桌面端在这台设备上的偏好设置。: Resets desktop preferences on this device.
+本工具与 cleanup skill 的历史备份: Previous cleaner backups
+Code 自动配置备份: Code automatic configuration backups
+永久删除此目录中的既有备份与旧清理记录，不保留恢复副本。: Permanently deletes existing backups and cleanup records in this folder. No recovery copy is retained.
+Code 历史配置备份: Code old configuration backups
+永久删除旧配置备份，避免其中残留账号与认证信息。: Permanently deletes old configuration backups containing account or authentication data.
+Desktop 本地设备标识: Desktop local device identifiers
+仅清除本地记录；不能删除服务端账号或设备记录。: Removes local records only. Server account and device records are retained.
+配置残留 · {v0}: Configuration · {v0}
+只移除预览中的代理或认证配置，保留其他内容。共享代理设置会影响其他工具，请按需选择。: Removes only the proxy or authentication keys listed in the preview. Other content is retained. Shared proxy settings may affect other tools.
+组织编号须为 8–100 位字母、数字、横线或下划线。: Organization ID must contain 8–100 letters, digits, hyphens or underscores.
+系统操作被中断，请刷新当前状态。: System operation interrupted. Refresh the current state.
+时区无效。: Invalid time zone.
+快照核验通过，直接删除所选数据。: Snapshot validated. Permanently deleting selected data.
+正在清理：{v0}: "Cleaning: {v0}"
+Claude 重新启动，已停止余下清理。: Claude restarted. Remaining cleanup stopped.
+直接删除失败；此项目可能部分删除，请重新扫描。: Deletion failed. This item may be partially deleted. Run another scan.
+无法读取配置属性。: Cannot read configuration attributes.
+无法读取配置。: Cannot read configuration.
+配置键发生变化，请重新扫描。: Configuration keys changed. Run another scan.
+已清理：{v0}: "Cleaned: {v0}"
+"{v0}：{v1} 余下项目未执行。": "{v0}: {v1} Remaining items were skipped."
+已清理 {v0}/{v1} 项；{v2}。: Cleaned {v0}/{v1} items; {v2}.
+准备复查: Ready to verify
+后续清理已停止: Remaining cleanup stopped
+无法读取文件夹；请拖入一个可访问的目录。: Cannot read folder. Drop an accessible directory.
+仅支持当前用户的真实文件夹；不接受文件、链接或其他用户目录。: Choose a real folder owned by the current user. Files, links and other users’ folders are unsupported.
+文件夹扫描完成：发现 {v0} 个 Claude 清理项目。: "Folder scan complete: found {v0} Claude cleanup items."
+文件夹扫描达到条目或时间上限，仅列出已发现的项目。: Folder scan reached its time or item limit. Only discovered items are listed.
+已检查 {v0} 个目录。: Checked {v0} directories.
+无法检查 {v0}。: Cannot check {v0}.
+有目录条目无法读取。: Some directory entries could not be read.
+文件夹内 Claude 既有备份: Claude backups in folder
+直接删除已存在的 Claude 备份，不保留恢复副本。: Permanently deletes existing Claude backups. No recovery copy is retained.
+目录层级过深，已跳过 {v0}。: Directory too deep. Skipped {v0}.
+目录数量达到上限，未展开全部子目录。: Directory count limit reached. Some subdirectories were not scanned.
+发布构建需要 custom-protocol；使用 tauri build 或 cargo build --release --features custom-protocol。: Release builds require custom-protocol. Use tauri build or cargo build --release --features custom-protocol.
+退出: Quit
+无法启动 CCBaga-A: Cannot start CCBaga-A
+配置不是有效 JSON，拒绝修改。: Configuration is not valid JSON. No changes made.
+配置顶层必须是 JSON 对象。: Top-level configuration must be a JSON object.
+env 必须是 JSON 对象，拒绝修改。: env must be a JSON object. No changes made.
+无法生成配置。: Cannot generate configuration.
+无法定位用户目录。: Cannot locate the home directory.
+无法读取用户目录。: Cannot read the home directory.
+已跳过链接、其他用户或特殊路径：{v0}: "Skipped link, other user or special path: {v0}"
+配置过大或类型不正确：{v0}: "Configuration too large or incorrect type: {v0}"
+"{v0}：包含复合赋值或外部配置引用，未自动展开或改写这些内容。": "{v0}: compound assignments or external configuration references were left unchanged."
+旧组织会话文件: Old organization sessions
+文件正文匹配所填组织编号；请核对路径，只清理确认不再需要的旧会话。: File contents match the organization ID. Check the path and remove only sessions you no longer need.
+组织检索达到时间或条目上限；未扫描全部文件。: Organization search reached its time or item limit. Some files were not scanned.
+已发现 {v0} 个可选项目。: Found {v0} selectable items.
+当前应用环境: Application environment
+未发现代理或认证变量。终端已启动的会话需单独检查。: No proxy or authentication variables found. Existing terminal sessions must be checked separately.
+发现变量：{v0}。清理启动文件后，请重开终端。: "Variables found: {v0}. Restart terminals after cleaning startup files."
+检测到自定义 CLAUDE_CONFIG_DIR；本次仅检查默认目录，自定义目录未纳入清理。: Custom CLAUDE_CONFIG_DIR detected. Only default directories were checked.
+系统代理: System proxy
+系统代理已开启。此处仅检查，不改动现有 Clash 路由。: System proxy is enabled. This check does not change Clash routing.
+未发现已开启的系统代理；仍需在客户端验证实际出口和断线保护。: No enabled system proxy found. Verify the actual exit and connection protection in your client.
+"{v0} · 可在电脑设置中修改。": "{v0} · Change in Computer settings."
+保留个人资产: Retained personal data
+skills、plugins、hooks、commands、CLAUDE.md、MCP、权限、模型及遥测设置保持不变。: Skills, plugins, hooks, commands, CLAUDE.md, MCP, permissions, model and telemetry settings are retained.
+无法检查 Claude 进程，请刷新重试。: Cannot check Claude processes. Refresh and retry.
+无法结束 Claude 进程 {v0}。: Cannot stop Claude process {v0}.
+macOS 钥匙串 / {v0}: macOS Keychain / {v0}
+登录凭据 · {v0}: Sign-in credential · {v0}
+直接删除后需重新登录；不读取或保留凭据正文。: Sign in again after deletion. Credential contents are never read or retained.
+文件夹范围: Folder scope
+仅检查所选文件夹内的 Claude 会话、缓存与既有备份。项目文档、设置、凭据、技能和插件保留；不检查目录外钥匙串或全局会话。: Checks Claude sessions, cache and existing backups in the selected folder only. Project documents, settings, credentials, skills and plugins are retained. Global sessions and keychain are excluded.
+仍有 Claude 进程在运行。: Claude processes are still running.
+已结束 {v0} 个 Claude 进程，可以清理。: Stopped {v0} Claude processes. Ready to clean.
+结束进程被中断，请刷新。: Process termination interrupted. Refresh.
+请选择清理项目。: Select items to clean.
+清理快照已过期，请重新扫描。: Scan snapshot expired. Run another scan.
+登录凭据已变化，请重新扫描。: Sign-in credentials changed. Run another scan.
+路径已变化或超出当前用户范围。: Path changed or outside the current user’s scope.
+项目已变化，请重新扫描。: Item changed. Run another scan.
+数据已变化，请退出 Claude 后重新扫描。: Data changed. Quit Claude and scan again.
+目录快照不完整，请重新扫描。: Directory snapshot is incomplete. Scan again.
+目录内的文件已经变化，请重新扫描。: Directory contents changed. Run another scan.
+无法创建配置临时文件。: Cannot create temporary configuration file.
+无法保存完整配置。: Cannot save complete configuration.
+无法替换配置。: Cannot replace configuration.
+资料路径无效。: Invalid profile path.
+浏览器仍在运行，请保存任务并关闭浏览器窗口。: Browser is running. Save your work and close all browser windows.
+路径不在独立浏览资料内。: Path is outside the independent browser profile.
+检测到链接，未修改资料。: Link detected. Profile left unchanged.
+无法检查浏览资料路径。: Cannot check browser profile path.
+配置目录无效。: Invalid configuration directory.
+无法创建浏览器目录。: Cannot create browser directory.
+配置编码失败。: Cannot encode configuration.
+配置写入失败。: Cannot write configuration.
+配置权限设置失败。: Cannot set configuration permissions.
+配置保存失败。: Cannot save configuration.
+Preferences 损坏，未覆盖原文件。: Preferences damaged. Original file left unchanged.
+无法读取 Preferences。: Cannot read Preferences.
+Preferences 格式错误。: Invalid Preferences format.
+Preferences 字段格式错误，未修改原文件。: Invalid Preferences field. Original file left unchanged.
+无法读取缓存项目。: Cannot read cache item.
+缓存中包含链接，已停止。: Link found in cache. Cleanup stopped.
+无法枚举缓存。: Cannot enumerate cache.
+无法读取缓存条目。: Cannot read cache entry.
+"{v0} 删除失败；已处理 {v1} 项，后续未执行。": "{v0} deletion failed; processed {v1} items. Remaining items skipped."
+指纹种子必须是 1–4294967295 的整数。: Fingerprint seed must be an integer from 1 to 4294967295.
+语言或时区无效。: Invalid language or time zone.
+代理地址格式无效。: Invalid proxy address.
+填写 http、https 或 socks5 代理主机与端口；带密码代理请交给本机 Clash，不在本软件保存凭据。: Enter an HTTP, HTTPS or SOCKS5 host and port. Manage authenticated proxies in Clash; credentials are not saved here.
+浏览器配置损坏，未使用默认值覆盖。: Browser configuration damaged. Defaults were not written over it.
+无法读取浏览器配置。: Cannot read browser configuration.
+无法创建本地会话令牌。: Cannot create local session token.
+起始页服务启动失败。: Cannot start the check page service.
+起始页服务配置失败。: Cannot configure the check page service.
+应用目录不可用。: Application directory unavailable.
+CCBaga-B.app: CCBaga-B.app
+引擎路径无效。: Invalid engine path.
+本地端口不可用。: Local port unavailable.
+无法写入起始页地址。: Cannot write check page address.
+CCBaga-B未随宿主启动：{v0}: "CCBaga-B did not start with the cleaner: {v0}"
+未安装 /Applications/CCBaga-B.app。: /Applications/CCBaga-B.app is not installed.
+无法重新连接运行中的 CCBaga-B。: Cannot reconnect to the running CCBaga-B.
+无法打开 CCBaga-B。: Cannot open CCBaga-B.
+LaunchServices 拒绝打开 CCBaga-B。: LaunchServices refused to open CCBaga-B.
+未找到 /Applications/CCBaga-B.app，请先运行 bun run install:apps。: /Applications/CCBaga-B.app not found. Run bun run install:apps first.
+引擎目录无效。: Invalid engine directory.
+无法安装内置引擎。: Cannot install the bundled engine.
+资源目录不可用。: Resource directory unavailable.
+无法解压内置引擎。: Cannot extract the bundled engine.
+内置引擎安装失败。: Bundled engine installation failed.
+浏览器起始页缺失。: Browser check page missing.
+浏览器操作被中断。: Browser operation interrupted.
+检查独立浏览器配置与资料占用。: Checking browser configuration and profile use.
+内置浏览器引擎不可用。: Bundled browser engine unavailable.
+浏览器正在运行：打开 Default 实测页，沿用当前进程参数，不改写正在使用的资料。: Browser is running. Opening the Default profile check page with the current process settings.
+浏览器诊断日志不可用。: Browser diagnostics log unavailable.
+浏览器日志不可用。: Browser log unavailable.
+浏览器启动失败。: Browser launch failed.
+浏览器已启动，等待起始页上报真实指纹与出口。: Browser started. Waiting for actual fingerprint and network observations.
+无法读取浏览器状态。: Cannot read browser status.
+浏览器启动后立即退出，请检查引擎完整性。: Browser exited immediately. Check engine integrity.
+浏览器仍在启动，请刷新状态。: Browser is still starting. Refresh status.
+已删除: Deleted
+出口服务未返回有效结果。: Exit service did not return valid data.
+出口 IP 缺失。: Exit IP missing.
+出口 IP 无效。: Invalid exit IP.
+出口国家无效。: Invalid exit country.
+代理格式无效。: Invalid proxy format.
+无法建立出口检查。: Cannot initialize exit check.
+请求超时: Request timed out
+网络连接失败: Network connection failed
+出口响应读取失败: Cannot read exit response
+出口响应格式错误: Invalid exit response format
+目标地区网络出口: Region network exit
+目标：{v0}；实际：{v1} · {v2} · {v3} · {v4}: "Target: {v0}; actual: {v1} · {v2} · {v3} · {v4}"
+自定义组合，未确定国家: Custom configuration; country undetermined
+需要打开浏览器实测出口。: Open browser to check its network exit.
+浏览器与机器出口: Browser & computer exits
+上次检测的机器出口：{v0}: "Last computer exit: {v0}"
+点击检测机器出口；配置代理不等于已核验。: Check computer network. A configured proxy has not been verified yet.
+时区一致: Time zone alignment
+本机：{v0}；浏览器：{v1}；出口：{v2}: "Computer: {v0}; browser: {v1}; exit: {v2}"
+目标语言与系统区域: Language & system region
+机器：{v0} / {v1}；浏览器：{v2}: "Computer: {v0} / {v1}; browser: {v2}"
+真实设备与 CPU: Actual device & CPUs
+macOS {v0} · {v1} 核；浏览器版本 {v2} · {v3} 核: macOS {v0} · {v1} cores; browser version {v2} · {v3} cores
+浏览器版本: Browser version
+引擎：{v0}；实测：{v1}: "Engine: {v0}; observed: {v1}"
+地理位置关闭: Location disabled
+机器定位：{v0}；网页权限：{v1}: "Computer location: {v0}; browser permission: {v1}"
+真实图形与字体: Graphics & fonts
+已配置使用真实字体、GPU、音频、Canvas 与布局；读数尚未独立核验。: Configured to use actual fonts, GPU, audio, Canvas and layout. Not independently verified.
+Canvas 与布局矩形使用稳定种子；不作为机器完全一致。: Canvas and layout use a stable seed. Device alignment is not verified.
+DNS / WebRTC 泄漏: DNS / WebRTC leaks
+已设置代理 DNS、限制未代理 UDP、关闭 QUIC；尚未完成独立泄漏测试。: Proxy DNS configured, unproxied UDP restricted and QUIC disabled. Independent leak test pending.
+首选语言与地区格式已保存，部分应用需重启或注销。: Preferred language and region saved. Some apps require restarting or signing out.
+已取消系统授权；余下凭据未处理。: System authorization cancelled. Remaining credentials left unchanged.
+凭据已变化，请重新扫描。: Credential changed. Run another scan.
+钥匙串删除失败: Keychain deletion failed
+关闭弹窗: Close dialog
+"{v0}：{v1}（OSStatus {v2}）": "{v0}: {v1} (OSStatus {v2})"
+Claude Code CLI: Claude Code CLI
+已安装: Installed
+未安装: Not installed
+正在检查安装状态…: Checking installation…
+一键卸载: Uninstall
+一键重装: Reinstall
+Claude Code CLI 已卸载。: Claude Code CLI uninstalled.
+Claude Code CLI 已重装，版本核验通过。: Claude Code CLI reinstalled. Version verified.
+CLI 安装: CLI installation
+CLI 安装记录: CLI installation log
+开始 Claude Code CLI 安装管理。: Starting Claude Code CLI installation management.
+无法启动 Claude Code 安装任务。: Cannot start the Claude Code installation task.
+Claude Code 安装任务超时，操作可能已部分完成，请重试。: Claude Code installation timed out. Changes may be incomplete. Retry the operation.
+Claude Code 安装任务被中断。: Claude Code installation task interrupted.
+Claude Code 安装任务失败，请检查终端环境和安装目录权限。: Claude Code installation failed. Check your terminal environment and installation directory permissions.
+无效的 Claude Code 安装操作。: Invalid Claude Code installation operation.
+Claude Code 仍在运行，请先结束进程。: Claude Code is still running. Stop its processes first.
+Claude Code 安装状态回报不完整，请检查终端环境。: Claude Code installation status is incomplete. Check your terminal environment.
+重新检查: Check again
+"{platform} {v0} / {v1} 核": "{platform} {v0} / {v1} cores"
+代理环境: Proxy environment
+检测到代理环境变量；桌面代理设置未独立核验，请验证实际出口。: Proxy environment variables detected. Desktop proxy settings have not been independently checked; verify the actual exit.
+未发现代理环境变量；桌面代理设置未独立核验，请验证实际出口。: No proxy environment variables found. Desktop proxy settings have not been independently checked; verify the actual exit.
+通用: General
+系统: System
+地址: Address
+登录: Login
+文件: Files
+类型: Type
+连接: Connections
+认证: Authentication
+协议: Protocol
+端口: Port
+Windows 未允许修改时区；请在系统设置中完成授权后重试。: Windows did not allow the timezone change. Complete authorization in system settings and try again.
+Windows 凭据管理器不自动读取；文件登录记录可在清理预览中选择。: Windows Credential Manager is not read automatically. File-based login records can be selected in the cleanup preview.
+Windows 凭据管理器不支持自动删除。: Automatic deletion of Windows Credential Manager entries is not supported.
+Windows 定位权限已成功禁用并核验。: Windows location permission is disabled and verified.
+请在打开的 Windows 设置窗口中手动关闭定位权限。: Turn off location permission in the Windows Settings window.
+Desktop 会话与登录存储: Desktop sessions and login storage
+清除本地登录数据库与网页状态；保留桌面配置、MCP 和其他个人文件。: Clear local login databases and web state; preserve desktop configuration, MCP and other personal files.
+无法保留 Windows 配置权限，未写入内容。: Windows configuration permissions could not be preserved; no content was written.
+目录无法完整读取：{v0}：{v1}。请检查权限、退出 Claude 后重新扫描。: "Cannot fully read directory: {v0}: {v1}. Check permissions, quit Claude, and scan again."
+当前身份: Current identity
+空身份: Empty identity
+身份: Identities
+重命名身份: Rename identity
+重命名: Rename
+使用: Use
+登录与身份数据: Login & identity
+保留: Keep
+暂存: Archive
+Skills 与命令: Skills & commands
+插件: Plugins
+MCP 配置: MCP configuration
+个人设置: Personal settings
+项目记录: Project records
+会话历史: Conversation history
+切换到空身份: Switch to empty identity
+切换身份: Switch identity
+当前身份保存为: Save current identity as
+目标身份: Target identity
+留在工作区: Keep in workspace
+无: None
+确认暂存并切换: Archive & switch
+身份名称: Identity name
+有一次身份切换尚未完成: An identity switch is incomplete
+恢复原身份: Restore previous identity
+确认恢复: Restore
+先压缩暂存当前 Claude Code 与 Desktop 状态，再切换。将结束已识别的 Claude 进程，未保存任务会中断。: Your current Claude Code and Desktop state is archived before switching. Recognized Claude processes will close; unsaved work will be interrupted.
+只管理本地状态；失效的登录可能需要重新认证。: Local state only. Expired logins may require signing in again.
+将结束已识别的 Claude 进程；程序维护保留身份暂存与个人资料。: Recognized Claude processes will close. Program maintenance preserves identity archives and personal data.
+身份操作记录: Identity activity
+身份暂存: Identity archive
+身份切换: Switch identity
+身份管理: Identity management
+原身份已恢复。: Previous identity restored.
+身份切换完成，原身份已压缩暂存。: Identity switched; previous identity archived.
+请先结束 Claude 进程，再切换身份。: Close Claude processes before switching identities.
+身份数据无法完整读取；未修改任何数据。: Identity data could not be read completely. No data changed.
+身份路径包含链接或特殊文件。: Identity path contains a link or special file.
+身份配置不是有效 JSON。: Identity configuration is not valid JSON.
+身份配置不是对象。: Identity configuration is not an object.
+身份配置无法读取。: Identity configuration could not be read.
+身份配置无法保存。: Identity configuration could not be saved.
+身份文件无法读取。: Identity file could not be read.
+身份文件不属于当前用户。: Identity file is not owned by the current user.
+身份路径无法检查。: Identity path could not be checked.
+无法保护身份文件权限。: Identity file permissions could not be protected.
+无法创建身份目录。: Identity directory could not be created.
+身份路径无效。: Invalid identity path.
+无法创建身份暂存文件。: Identity archive file could not be created.
+无法保存身份文件。: Identity file could not be saved.
+无法提交身份文件。: Identity file could not be committed.
+无法生成安全随机数。: Secure random data could not be generated.
+身份归档无法验证，未修改当前身份。: Identity archive failed verification. Current identity unchanged.
+身份数据库无法读写；未提交身份切换。: Identity database could not be read or written. Switch not committed.
+无法创建身份数据库。: Identity database could not be created.
+身份策略无法读取。: Identity policy could not be read.
+身份元数据无效。: Invalid identity metadata.
+身份不存在。: Identity not found.
+身份名称需要 1–64 个字符。: Identity name must contain 1–64 characters.
+身份保险库无法定位。: Identity vault could not be located.
+身份列表读取被中断。: Identity listing was interrupted.
+身份编号无效。: Invalid identity identifier.
+身份切换中断；请使用恢复操作。: Identity switch interrupted. Use recovery.
+请先恢复未完成的身份切换。: Recover the incomplete identity switch first.
+身份名称保存被中断。: Identity rename was interrupted.
+身份凭据无法处理。: Identity credentials could not be processed.
+身份归档读写或验证失败；请保留暂存文件并重试。: Identity archive read, write or verification failed. Keep the archive and retry.
+身份密钥缺失；不能创建新密钥覆盖已有身份。: Identity key is missing. Existing identities will not be overwritten with a new key.
+身份密钥无效。: Invalid identity key.
+身份归档编号无效。: Invalid archive identifier.
+身份归档成员无效。: Invalid archive member.
+身份归档包含链接或特殊文件。: Archive contains a link or special file.
+身份不属于当前电脑或归档版本无效。: Identity belongs to another computer or uses an unsupported archive version.
+身份路径超出允许范围。: Identity path is outside the allowed scope.
+身份归档不完整。: Incomplete identity archive.
+正在压缩暂存身份。: Compressing and archiving identity.
+身份数据发生变化；未切换身份。: Identity data changed. Identity not switched.
+身份恢复位置已有数据；请使用恢复操作。: Identity restore destination contains data. Use recovery.
+正在验证并暂存当前身份。: Verifying and archiving current identity.
+暂存已验证，正在切换身份。: Archive verified. Switching identity.
+没有需要恢复的身份事务。: No identity transaction needs recovery.
+正在恢复未完成的身份切换。: Recovering an incomplete identity switch.
+"{v0} 已恢复切换前的身份。": "{v0} Previous identity restored."
+"{v0} 原身份已暂存，请使用恢复操作。": "{v0} Previous identity archived. Use recovery."
+刷新: Refresh
+保存: Save
+卸载 Claude Code CLI: Uninstall Claude Code CLI
+重装 Claude Code CLI: Reinstall Claude Code CLI
+确认: Confirm
+恢复前状态: State before recovery
+身份凭据格式不受支持，未修改凭据。: Unsupported identity credential format. Credentials unchanged.
+保留在工作区: Keep in workspace
+暂存身份: Saved identities
+切换: Switch
+删除: Delete
+直接删除当前身份: Delete current identity
+删除暂存身份: Delete saved identity
+将结束 Claude 进程并删除所选本地数据。不会新增备份，已有暂存身份不受影响。: Claude processes will close and the selected local data will be deleted. No new archive will be created. Existing saved identities remain unchanged.
+永久删除这份暂存文件。当前工作区不受影响。: Permanently delete this archive. Your current workspace remains unchanged.
+确认直接删除: Confirm deletion
+删除范围: Delete scope
+我知道此操作无法撤销: I understand this cannot be undone
+开始本地身份操作。: Starting local identity operation.
+正在直接删除所选本地身份数据。: Deleting the selected local identity data.
+所选本地身份已直接删除。: The selected local identity has been deleted.
+身份数据发生变化；未修改身份。: Identity data changed. The identity was not modified.
+直接删除未完成；部分数据可能已删除，请刷新检查。: Deletion did not finish. Some data may have been deleted. Refresh to check.
+身份删除事务尚未完成，请重新打开身份面板。: An identity deletion is unfinished. Reopen the identity panel.
+身份已从目录移除，但暂存文件回收失败；请重新打开面板。: The identity was removed from the catalog, but its archive could not be removed. Reopen the panel.
+直接删除中断；请刷新检查剩余数据。: Deletion was interrupted. Refresh to check remaining data.
+账号信息暂不可读: Account information unavailable
+账号信息未识别: Account information not identified
+警告：此操作不可撤销，不会创建新备份。: "Warning: this cannot be undone. No new backup will be created."
+Claude 桌面客户端: Claude Desktop
+查看修复计划: Review repair plan
+本机策略文件: Local policy file
+代理进程与端口: Proxy process and ports
+固定线路规则: Fixed route rules
+固定出口 IP: Fixed egress IP
+实际路由: Observed route
+使用中守护: Runtime watchdog
+代理与浏览器设置: Proxy and browser settings
+Claude API 地址: Claude API endpoint
+桌面客户端保护: Desktop client protection
+Cowork 服务断网: Cowork service network block
+运行中的 Claude 连接: Active Claude connections
+CLI 连接: CLI connections
+VS Code 连接: VS Code connections
+桌面客户端连接: Desktop client connections
+本机策略文件缺失或无效，需要恢复现有安装。: The local policy is missing or invalid. Restore the existing installation.
+代理进程或专用端口未通过检查，请检查 Clash 是否正常运行。: The proxy process or dedicated port failed its check. Check that Clash is running.
+固定线路规则未通过检查，可先查看修复计划。: The fixed route rules failed their check. Review the repair plan.
+探测到的出口与指定 IP 不一致，已阻止启动。: The observed egress differs from the required IP. Launch is blocked.
+实际路由没有通过固定线路检查，请查看现有 Proxy-v2 诊断。: The observed route failed its check. Review the existing Proxy-v2 diagnostics.
+后台守护不可用、状态过期或已阻断出口。: The watchdog is unavailable, stale or blocking the egress.
+客户端代理或专用浏览器设置不符合当前策略，可先查看修复计划。: Client proxy or browser settings do not match the current policy. Review the repair plan.
+配置中发现不符合策略的 API 地址，请检查 Claude 的 API 设置。: An API endpoint does not match the policy. Review the Claude API settings.
+桌面客户端的代理或防火墙保护未通过检查。: Desktop proxy or firewall protection failed its check.
+Cowork 服务的断网保护未通过检查。: The Cowork service network block failed its check.
+这项检查没有得到确定结果，请重新检查。: This check did not return a conclusive result. Check again.
+运行中的连接没有全部通过固定线路检查。: Some active connections failed the fixed route check.
+未通过: Failed
+待确认: Unconfirmed
+未通过：{items}: "Failed: {items}"
+还没有检查结果。: No check result yet.
+启动 Claude: Launch Claude
+工作目录: Folder
+更改: Change
+启动: Launch
+网络代理设置始终留在本机，不随身份切换。: Network proxy settings stay on this computer and do not change with identities.
+无法定位用户主目录。: Unable to locate the home folder.
+启动中断。: The launch was interrupted.
+无法打开文件夹选择窗口。: Unable to open the folder picker.
+文件夹选择中断。: Folder selection was interrupted.
+所选文件夹不可用。: The selected folder is unavailable.
+身份切换尚未恢复完成，请先到身份管理中恢复。: An identity switch has not been recovered. Recover it in Claude identities first.
+另一项操作正在进行，请等它完成后再试。: Another operation is running. Try again when it finishes.
+其他网络检查: Other network check
+网络检查没有得到可确认的通过结果。: The network check did not return a confirmed pass.
+首页: Home
+使用 Claude: Use Claude
+网页版: Web
+账号: Accounts
+出口: Egress
+关闭定位: Turn off location
+时区已成功应用并核验。: Time zone applied and verified.
+时区修改未通过核验。: The time zone change failed verification.
+无效的时区。: Invalid time zone.
+后台守护正在恢复: Watchdog is recovering
+后台守护正在恢复（常见于刚从睡眠唤醒），通常 30 秒内更新；启动会等它恢复。: The watchdog is recovering (common right after sleep) and usually reports within 30 seconds; launches wait for it.
+身份目录版本较新，请更新应用。: This identity catalog requires a newer app version.
+身份账号索引无法读取。: The local account index could not be read.
+身份保险库无法读取。: The identity vault could not be read.
+旧身份归档回收失败。: The previous identity archive could not be removed.
+身份压缩格式无效。: Invalid identity compression format.
+Code 会话计划: Code session plans
+Code 会话图片: Code session images
+Code 会话附件: Code session attachments
+Code 会话环境: Code session environment
+Code 会话任务: Code session tasks
+Code 终端快照: Code shell snapshots
+Code 反馈归档: Code feedback archives
+Code 反馈草稿: Code feedback drafts
+Code 会话扩展: Code session mods
+联动浏览器: Link browser
+关闭浏览器联动: Unlink browser
+独立浏览器: Separate browser
+打开浏览器: Open browser
+将关闭并重开关联浏览器，请先保存网页任务。: The linked browser will close and reopen. Save your browser work first.
+将正常关闭并重开浏览器，请先保存网页任务。: The browser will close and reopen. Save your browser work first.
+每个身份使用独立网页资料和稳定指纹，切换时自动恢复。首次仍需登录网站。: Each identity keeps separate website data and a stable fingerprint, restored when switching. Sign in to websites on first use.
+恢复使用原有通用浏览器资料。各身份的独立资料会保留。: Return to the original shared browser data. Separate identity data will be kept.
+将现有浏览器资料关联给当前身份: Associate existing browser data with the current identity
+默认创建新资料，现有资料不会删除。资料隔离不会改变出口 IP。: New browser data is created by default. Existing data is kept. Separate data does not change your exit IP.
+同时永久删除关联浏览器资料: Also permanently delete linked browser data
+浏览器资料选择无效。: Invalid browser data selection.
+无法分配独立浏览器种子。: Could not allocate a separate browser seed.
+浏览器保持关闭，请先恢复身份切换。: Browser remains closed. Restore the interrupted identity switch first.
+无法更新浏览器启动状态。: Could not update the browser launch state.
+正在正常退出关联浏览器。: Closing the linked browser normally.
+身份状态已保存，浏览器未能重开；请重试打开浏览器。: Identity state was saved, but the browser could not reopen. Try opening the browser again.
+浏览器资料已与身份同步。: Browser data selection is synchronized with the identity.
+浏览器联动设置被中断，请刷新。: Browser linking was interrupted. Refresh the status.
+关联浏览器资料正在使用，不能删除。: Linked browser data is in use and cannot be deleted.
+身份已删除，关联浏览器资料未完全删除，请检查。: Identity deleted. Linked browser data was not fully removed. Please check.
+本地身份: Local identity
+登录链接: Login links
+登录链接入口: Login-link entry
+登录链接启动器缺失，或 CCBaga Proxy 还没有登记指纹浏览器入口。: The login-link launcher is missing, or CCBaga Proxy has not registered its fingerprint browser entry.
+指纹浏览器: Fingerprint browser
+定位: Location
+浏览器实测: Browser measurement
+一致: Consistent
+不一致: Different
+出口国家: egress country
+清空记录: Clear
+专用端口: Dedicated port
+固定出口: Fixed egress
+"{key}：{before} → {after}": "{key}: {before} → {after}"
+本地核验连接失败，请从 CC-Guard 重新打开浏览器。: Local check connection failed. Reopen the browser from CC-Guard.
+已连接 CC-Guard{v0}: Connected to CC-Guard{v0}
+与 CC-Guard 的连接已断开，请在 CC-Guard 里重新打开实测页。: Lost connection to CC-Guard. Reopen the check page from CC-Guard.
+关于: About
+线路: Line
+只读：每 2 秒看一次 Claude 的连接走了哪个节点，不会断开或修改任何东西。: "Read-only: checks which node Claude's connections use every 2 seconds. Nothing is closed or changed."
+通过: Pass
+拦住: Blocked
+无法确认: Unknown
+正在读取连接…: Reading connections…
+Claude 连接 {v0} / 全部 {v1}: Claude connections {v0} / total {v1}
+漏网: Leak
+未知程序: Unknown program
+入口 {v0}: Inbound {v0}
+实际节点 {v0}: Actual node {v0}
+现在: Now
+最近 {v0}: Last seen {v0}
+没有看到漏网连接。: No leaked connections seen.
+还没有连接记录。: No connections recorded yet.
+CC-Guard · 浏览器环境: CC-Guard · Browser environment
+每个账号的登录与本地数据分开保存，切换前自动暂存当前账号。: Each account's sign-in and local data are kept separately. The current account is archived before switching.
+空账号: Empty account
+账号列表: Account list
+使用中: In use
+没有登录任何账号。新账号登录前请先切到这里。: No account signed in. Switch here before signing in to a new account.
+Claude 运行中: Claude running
+Claude 未运行: Claude not running
+改名: Rename
+切换账号时这些内容不跟着走: These stay put when you switch accounts
+更多操作: More actions
+启动 Claude Code: Launch Claude Code
+启动桌面版: Launch desktop app
+启动网页版: Launch web
+已启动：{v0}: "Started: {v0}"
+没有启动：{v0}: "Not started: {v0}"
+每次启动前都会重新检查线路，没通过就不启动。: The line is rechecked before every launch. Nothing starts unless it passes.
+规则分流: Rule
+全局: Global
+直连: Direct
+没有启动: Not started
+线路还没设置好，Claude 无法启动。: The line isn't set up yet, so Claude can't start.
+开始设置: Set up
+指定节点: Node
+选择节点: Choose a node
+先连上 Clash 再选节点: Connect to Clash first
+设置: Settings
+正在读取设置…: Reading settings…
+让 Claude 只走你指定的 Clash 节点，没通过检查就不启动。: Keeps Claude on the Clash node you chose, and won't launch it unless the check passes.
+开源软件，MIT 许可。不上传任何账号或线路信息。: Open source, MIT licensed. No account or line data is uploaded.
+专用端口要填 1–65535 的数字。: The dedicated port must be a number from 1 to 65535.
+没有读到当前出口。: Couldn't read the current exit.
+Clash Verge：设置 → 外部控制，例如 127.0.0.1:9097: "Clash Verge: Settings → External control, e.g. 127.0.0.1:9097"
+控制密钥: Controller secret
+已设置；留空表示不修改。: Set. Leave empty to keep it.
+未设置；Clash 没设密钥时留空。: Not set. Leave empty if Clash has no secret.
+已设置: Set
+Claude 专用端口: Claude dedicated port
+在 Clash 里为 Claude 单独开的入站端口，不要填日常用的 7890。: The inbound port opened in Clash just for Claude. Don't use your everyday 7890.
+刷新节点: Reload nodes
+期望出口 IP: Expected exit IP
+Claude 的流量必须从这个 IP 出去，否则拦住。: Claude traffic must leave from this IP, otherwise it's blocked.
+用当前出口: Use current exit
+保存线路设置: Save line settings
+线路设置已保存，正在重新检查。: Line settings saved. Rechecking.
+主题: Theme
+跟随系统: System
+浅色: Light
+深色: Dark
+CLI 工作目录: CLI folder
+启动 Claude Code 时打开的文件夹。: The folder Claude Code opens in.
+线路通过: Line passed
+已拦住: Blocked
+结果已过期，请重新检查。: Result is out of date. Check again.
+正在检查线路…: Checking the line…
+出口地区 {v0}: Exit region {v0}
+出口 IP {v0}: Exit IP {v0}
+分流模式 {v0}: Routing mode {v0}
+连上 Clash: Connect Clash
+选端口和节点: Port and node
+检查并记住出口: Check and remember exit
+请填写 Clash 控制地址。: Enter the Clash controller address.
+请选择一个节点。: Choose a node.
+还没有读到出口 IP，请先重新检查。: No exit IP yet. Check again first.
+第一次使用：三步配好 Claude 专用线路: "First run: set up Claude's dedicated line in three steps"
+完成: Done
+稍后再说: Later
+上一步: Back
+连接并下一步: Connect and continue
+保存并检查: Save and check
+记住这个出口: Remember this exit
+设置步骤: Setup steps
+打开 Clash Verge → 设置 → 外部控制，把地址和密钥填到这里。: Open Clash Verge → Settings → External control and copy the address and secret here.
+Clash 控制地址: Clash controller address
+Clash 没设密钥时留空。: Leave empty if Clash has no secret.
+在 Clash 里给 Claude 单独开一个入站端口，并把它指向下面选的节点。: Open a separate inbound port for Claude in Clash and point it at the node below.
+如果这就是你要的出口，点「记住这个出口」，以后出口变了就会拦住。: If this is the exit you want, click "Remember this exit". Claude will be blocked if it ever changes.
+配好了。以后每次启动 Claude 前都会先检查这条线路。: All set. The line is checked before every Claude launch.
+"只按域名核对：Clash 没有开启 find-process-mode: always，认不出发起连接的程序。": "Matching by domain only: Clash doesn't have find-process-mode: always, so it can't tell which program made a connection."
+漏网连接: Leaked connections
+controller 地址为空。: Controller address is empty.
+controller 地址格式无效。: Controller address is invalid.
+mihomo 拒绝了 secret，读不到配置，已拦住。: mihomo rejected the secret and its config can't be read. Blocked.
+mihomo 控制接口返回 HTTP {code}。: mihomo controller returned HTTP {code}.
+mihomo 配置响应格式错误。: mihomo config response is malformed.
+mihomo 配置响应读取失败。: Couldn't read the mihomo config response.
+mihomo 配置响应过大。: mihomo config response is too large.
+mihomo 配置里没有分流模式。: mihomo config has no routing mode.
+mihomo 配置里的 {key} 缺失或无效。: "{key} in the mihomo config is missing or invalid."
+专用端口无效。: Dedicated port is invalid.
+专用线路出口为 {first}，与期望一致。: Dedicated line exits at {first}, as expected.
+出口查询服务少于 2 个，无法确认。: Fewer than 2 exit lookup services. Can't confirm.
+出口查询服务返回的 IP 无效，无法确认。: An exit lookup service returned an invalid IP. Can't confirm.
+各查询服务看到的出口不一致（{v0}），已拦住。: Lookup services saw different exits ({v0}). Blocked.
+实际出口 {first} 与期望出口 {expected} 不符，已拦住。: Actual exit {first} doesn't match expected {expected}. Blocked.
+无法建立 controller 连接。: Can't connect to the controller.
+期望出口 IP 格式无效。: Expected exit IP is invalid.
+端口 {v0} 是 mihomo 的通用入站端口，会跟着日常分流走，不是 Claude 专用线路，已拦住。: Port {v0} is mihomo's general inbound port and follows everyday routing, not Claude's dedicated line. Blocked.
+经专用端口查询出口失败，无法确认：{e}: "Exit lookup through the dedicated port failed. Can't confirm: {e}"
+读取 mihomo 控制接口超时。: mihomo controller timed out.
+连不上 mihomo 控制接口。: Can't reach the mihomo controller.

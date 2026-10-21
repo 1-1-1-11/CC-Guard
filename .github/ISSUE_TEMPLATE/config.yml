@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 安全问题 / Security
+    url: https://github.com/shiqiyux-cmd/CC-Guard/security/advisories/new
+    about: 漏洞请私下报告，不要开公开 issue。

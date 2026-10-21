@@ -1,0 +1,33 @@
+node_modules/
+dist/
+src-tauri/target/
+src-tauri/gen/
+
+# Local credentials and generated release artifacts
+.env
+.env.*
+!.env.example
+*.p8
+*.p12
+*.pfx
+*.pem
+*.ppk
+*.pub
+__pycache__/
+*.pyc
+releases/
+*.key
+
+browser-runtime/WindowsBrowser/
+browser-runtime/browser.zip
+
+# Local identity vaults and generated account archives
+identity-vault/
+*.baga
+identities.sqlite*
+key.bin
+.serena/
+artifacts/
+
+# Machine-specific notes for AI coding assistants
+CLAUDE.local.md

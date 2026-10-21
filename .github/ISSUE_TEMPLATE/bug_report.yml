@@ -1,0 +1,56 @@
+name: 问题报告 / Bug report
+description: CC-Guard 没按预期工作
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **不要贴**：Clash 密钥、订阅地址、节点服务器地址、Claude 登录信息、个人文件内容。截图前请遮住这些。
+        Do not paste secrets, subscription URLs, node addresses or Claude credentials.
+  - type: input
+    id: version
+    attributes:
+      label: CC-Guard 版本
+      description: 侧栏 CC-Guard 名字旁边的版本号
+      placeholder: v0.3.0
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows 版本
+      placeholder: Windows 11 24H2
+    validations:
+      required: true
+  - type: input
+    id: clash
+    attributes:
+      label: Clash Verge / mihomo 版本
+      placeholder: Clash Verge Rev 2.x / mihomo v1.19.x
+  - type: dropdown
+    id: area
+    attributes:
+      label: 哪一块出了问题
+      options:
+        - 首次向导 / 线路设置
+        - 线路检查（状态条）
+        - 连接核对
+        - 启动 Claude Code
+        - 启动桌面版
+        - 启动网页版
+        - 账号切换 / 迁移
+        - 安装 / 其他
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 做了什么、看到了什么、期望看到什么
+      description: 状态条或提示里的原文最有用
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: 其他信息
+      description: Clash 是否开 TUN、专用端口绑定的是节点还是代理组等
