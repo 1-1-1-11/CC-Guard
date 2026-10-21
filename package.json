@@ -29,7 +29,7 @@
     "@tauri-apps/plugin-updater": "2.13.3",
     "clsx": "2.1.1",
     "lucide-react": "1.60.0",
-    "radix-ui": "1.6.7",
+    "radix-ui": "1.8.1",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
     "tailwind-merge": "3.6.0"
